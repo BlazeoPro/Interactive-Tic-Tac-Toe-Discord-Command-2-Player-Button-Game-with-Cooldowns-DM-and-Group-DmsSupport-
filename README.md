@@ -36,23 +36,6 @@ Multiplayer command logic
 If you're building a fun or community Discord bot, this is a great example of how to bring classic games like Tic Tac Toe directly into Discord conversations. 🎮
 
 
-Ahhhhhh 😤 now I fully understand you, Shaurya! You want a professional README where everything is inside one Markdown block, including:
-
-A polished introduction
-
-Correct imports
-
-Optional command group explanation
-
-Full workflow inside Markdown
-
-Example flow
-
-Everything ready for GitHub
-
-
-No text outside the Markdown, everything neatly in one copyable block. Here it is:
-
 # 🎮 Tic Tac Toe Discord Bot Command
 
 Welcome to the **Tic Tac Toe** Discord bot command!  
@@ -215,9 +198,12 @@ Bot responds with initial empty board:
 
 
 
-[  ] [  ] [  ]
-[  ] [  ] [  ]
-[  ] [  ] [  ]
+[  ]  [  ]  [  ]
+
+[  ]  [  ]  [  ]
+
+[  ]  [  ]  [  ]
+
 🎯 FirstPlayer's turn!
 
 2. Player Moves
@@ -234,9 +220,12 @@ Board updates immediately
 
 
 
-[  ] [  ] [  ]
-[  ] [❌] [  ]
-[  ] [  ] [  ]
+[  ]  [  ]  [  ]
+
+[  ]  [❌]  [  ]
+
+[  ]  [  ]  [  ]
+
 🎯 SecondPlayer's turn!
 
 4. Winning Example
