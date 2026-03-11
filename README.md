@@ -27,7 +27,7 @@ This Tic Tac Toe command includes a variety of features to ensure smooth gamepla
 
 ## 🔹 How to Execute This Command
 
-1. ## Import Required Modules ⚠️
+1. ### Import Required Modules ⚠️
 
 ```python
 import discord
@@ -37,7 +37,7 @@ import random
 ```
 ---
 
-2. ## Requried Versions ⚙️
+2. ####  Requried Versions ⚙️
 ```python
 python 3.11+
 discord.py (pip) 2.6+
