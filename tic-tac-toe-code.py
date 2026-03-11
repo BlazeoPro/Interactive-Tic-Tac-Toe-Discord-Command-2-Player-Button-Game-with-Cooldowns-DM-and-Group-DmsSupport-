@@ -4,6 +4,7 @@
 # using @bot.tree.command is my suggestion 
 # replace @game_group.command with @bot.tree.command and test it. 
 # it's your choice to put group.
+# this command also work in Dms and Group Dms all you need to use is. @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
 
 # ==============================
 # 🎮 TIC TAC TOE COMMAND BLOW
