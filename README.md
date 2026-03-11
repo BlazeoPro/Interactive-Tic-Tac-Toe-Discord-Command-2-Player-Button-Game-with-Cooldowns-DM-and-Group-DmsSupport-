@@ -35,12 +35,15 @@ from discord import app_commands
 from discord.ui import View, Button
 import random
 ```
+---
 
 2. **Requried Versions**
 ```python
 python 3.11+
 discord.py (pip) 2.6+
 ```
+
+---
 
 3. **Define the Command**
 you can use this group blow and can add more commands (max 25) in 1 group only 
@@ -75,11 +78,14 @@ async def tictactoe
 @bot.tree.command(..
 # this will create a direct command
 ```
+---
 
 4. **Player Verification**
 
 - The bot checks that player2 is not a bot.
 - It ensures that player1 and player2 are different users.
+
+---
 
 5. **Randomm Turn Selection**
 
@@ -87,13 +93,14 @@ async def tictactoe
 
 - A variable turn keeps track of whose turn it is.
 
+---
+
 6. **Board Initialization**
 
 - The board is created as a 3×3 grid:
 ```python
 board = [[" " for _ in range(3)] for _ in range(3)]
 ```
-
 ---
 
 🔹 Contribution
