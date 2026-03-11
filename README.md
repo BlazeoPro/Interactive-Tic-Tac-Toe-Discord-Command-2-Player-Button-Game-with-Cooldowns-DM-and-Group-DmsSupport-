@@ -77,10 +77,7 @@ Requirements:
 Python 3.11+
 
 discord.py v2.7+
-
-aiohttp v3.13.3+ (if not already installed)
-
-
+```
 
 ---
 
