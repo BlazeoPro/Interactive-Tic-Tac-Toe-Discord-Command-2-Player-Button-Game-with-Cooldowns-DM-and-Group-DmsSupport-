@@ -6,6 +6,11 @@
 # it's your choice to put group.
 # this command also work in Dms and Group Dms all you need to use is. @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
 
+import discord
+from discord import app_commands
+from discord.ui import View, Button
+import random
+
 # ==============================
 # 🎮 TIC TAC TOE COMMAND BLOW
 # ==============================
