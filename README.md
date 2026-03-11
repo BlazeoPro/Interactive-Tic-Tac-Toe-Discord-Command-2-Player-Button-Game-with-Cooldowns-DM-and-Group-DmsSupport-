@@ -198,11 +198,11 @@ Bot responds with initial empty board:
 
 
 
-[  ]  [  ]  [  ]
+[    ]  [    ]  [    ]
 
-[  ]  [  ]  [  ]
+[    ]  [    ]  [    ]
 
-[  ]  [  ]  [  ]
+[    ]  [    ]  [    ]
 
 🎯 FirstPlayer's turn!
 
@@ -220,11 +220,11 @@ Board updates immediately
 
 
 
-[  ]  [  ]  [  ]
+[    ]  [    ]  [    ]
 
-[  ]  [❌]  [  ]
+[    ]  [ ❌ ]  [    ]
 
-[  ]  [  ]  [  ]
+[    ]  [    ]  [    ]
 
 🎯 SecondPlayer's turn!
 
