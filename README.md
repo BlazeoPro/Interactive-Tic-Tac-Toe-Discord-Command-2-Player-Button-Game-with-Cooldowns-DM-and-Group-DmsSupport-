@@ -27,7 +27,7 @@ This Tic Tac Toe command includes a variety of features to ensure smooth gamepla
 
 ## 🔹 How to Execute This Command
 
-1. **Import Required Modules**
+1. **Import Required Modules** ⚠️
 
 ```python
 import discord
@@ -37,7 +37,7 @@ import random
 ```
 ---
 
-2. **Requried Versions**
+2. **Requried Versions** ⚙️
 ```python
 python 3.11+
 discord.py (pip) 2.6+
@@ -45,7 +45,7 @@ discord.py (pip) 2.6+
 
 ---
 
-3. **Define the Command**
+3. **Define the Command** 🎮
 you can use this group blow and can add more commands (max 25) in 1 group only 
 ```python
 
@@ -80,14 +80,14 @@ async def tictactoe
 ```
 ---
 
-4. **Player Verification**
+4. **Player Verification** 📡
 
 - The bot checks that player2 is not a bot.
 - It ensures that player1 and player2 are different users.
 
 ---
 
-5. **Randomm Turn Selection**
+5. # Randomm Turn Selection🔮
 
 - The bot randomly picks the first player using random.sample([player1, player2], 2).
 
@@ -95,7 +95,7 @@ async def tictactoe
 
 ---
 
-6. **Board Initialization**
+6. # Board Initialization🔨
 
 - The board is created as a 3×3 grid:
 ```python
