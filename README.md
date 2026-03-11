@@ -27,7 +27,7 @@ This Tic Tac Toe command includes a variety of features to ensure smooth gamepla
 
 ## 🔹 How to Execute This Command
 
-1. ### Import Required Modules ⚠️
+1. ## Import Required Modules ⚠️
 
 ```python
 import discord
@@ -37,7 +37,7 @@ import random
 ```
 ---
 
-2. ####  Requried Versions ⚙️
+2. ##  Requried Versions ⚙️
 ```python
 python 3.11+
 discord.py (pip) 2.6+
@@ -87,7 +87,7 @@ async def tictactoe
 
 ---
 
-5. ## Randomm Turn Selection🔮
+5. ## Randomm Turn Selection 🔮
 
 - The bot randomly picks the first player using random.sample([player1, player2], 2).
 
@@ -95,7 +95,7 @@ async def tictactoe
 
 ---
 
-6. ## Board Initialization🔨
+6. ## Board Initialization 🔨
 
 - The board is created as a 3×3 grid:
 ```python
@@ -103,7 +103,68 @@ board = [[" " for _ in range(3)] for _ in range(3)]
 ```
 ---
 
-🔹 Contribution
+7. ## Interactive Board 🖥
+- The bot creates a clickable board using discord.ui.View and discord.ui.Button.
+
+- Each button corresponds to a cell on the board.
+
+- Buttons are disabled if:
+
+- The cell is already taken
+
+- The game ends
+
+- Timeout occurs
+
+---
+
+8. ## Move Execution 🛠
+
+- When a player clicks a button:
+
+- The bot checks that it’s their turn.
+
+- The marker (❌ or 🔴) is placed.
+
+- The board is updated in real-time.
+
+- check_winner() verifies if someone has won or if it’s a draw.
+
+- Turn switches to the other player.
+
+---
+
+9. ## Error Handling 🪛
+
+- Invalid moves (clicking an occupied cell) are blocked.
+
+- Spectators cannot interfere.
+
+- Bots cannot play.
+
+- Unexpected errors are logged, and a friendly message is sent.
+
+---
+
+10. ## Timeout Handling ⏱️
+
+- If players don’t act for 5 minutes, the game automatically expires.
+
+- Buttons are disabled, and an inactive game message is displayed.
+
+---
+
+## 🔹 Who Can Use This Command
+
+- Servers – Play Tic Tac Toe with friends in channels.
+
+- Direct Messages (DMs) – Start a quick game privately.(requires allowed contextes)
+
+- Group DMs – Challenge friends in group conversations.(requries allowed contextes)
+
+---
+
+## 🔹 Contribution
 
 Pull requests are welcome
 
