@@ -156,11 +156,16 @@ board = [[" " for _ in range(3)] for _ in range(3)]
 
 ## 🔹 Who Can Use This Command
 
-- Servers – Play Tic Tac Toe with friends in channels.
+- **Servers** – Play Tic Tac Toe with friends in channels.
 
-- Direct Messages (DMs) – Start a quick game privately.(requires allowed contextes)
+- **Direct Messages (DMs)** – Start a quick game privately.(requires allowed contextes)
 
-- Group DMs – Challenge friends in group conversations.(requries allowed contextes)
+- **Group Messages (GDMs)** – Challenge friends in group conversations.(requries allowed contextes)
+
+---
+
+- 
+This command is perfect for community servers, social bots, or personal projects, as it combines interactive UI features, multiplayer logic, and clean game state management. It makes a simple classic game fun, engaging, and easy to play directly in Discord, while also serving as a practical example for developers learning about Discord bot interactions, button components, and real-time updates.
 
 ---
 
@@ -174,7 +179,7 @@ Add more game commands under the same group or as separate commands
 
 ---
 
-🔹 License 
+## 🔹 License 
 
 This project is open-source under the MIT License. You are free to use, modify, and distribute it.
 
