@@ -76,6 +76,24 @@ async def tictactoe
 # this will create a direct command
 ```
 
+4. **Player Verification**
+
+- The bot checks that player2 is not a bot.
+- It ensures that player1 and player2 are different users.
+
+5. **Randomm Turn Selection**
+
+- The bot randomly picks the first player using random.sample([player1, player2], 2).
+
+- A variable turn keeps track of whose turn it is.
+
+6. **Board Initialization**
+
+- The board is created as a 3×3 grid:
+```python
+board = [[" " for _ in range(3)] for _ in range(3)]
+```
+
 ---
 
 🔹 Contribution
